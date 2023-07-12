@@ -1,0 +1,41 @@
+.Contenedor-principal, .Contenedor-principal-dos { 
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #fff;
+
+    padding: 15px;
+    height: 500px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    gap: 20px;
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
+
+.Contenedor-principal .colash img { 
+    width: 400px;
+    height: 300px;
+    object-fit: contain;
+    border-radius: 15px;
+    box-shadow: 0 0 15px #fff;
+}
+
+.Contenedor-principal .info-libros { 
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+}
+
+.Contenedor-principal-dos .colash img { 
+    width: 400px;
+    height: 300px;
+    object-fit: contain;
+    border-radius: 15px;
+    box-shadow: 0 0 15px #fff;
+}
+
+.Contenedor-principal-dos .info-libros { 
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+}

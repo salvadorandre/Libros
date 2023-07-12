@@ -1,0 +1,30 @@
+.cabeza { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    background: rgb(220, 174, 96);
+    height: 100px;
+}
+
+.bar { 
+    display: flex;
+    list-style: none;
+    padding: 15px;
+    gap: 75px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.bar li a { 
+    text-decoration: none;
+    color: #000;
+    font-size: 17px;
+    font-weight: bold;
+    transition: 1s ease;
+    padding: 15px;
+}
+
+.bar li a:hover { 
+    filter: drop-shadow(5px 5px 2px #000);
+    transform: scale(1.0);
+}
